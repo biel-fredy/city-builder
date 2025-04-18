@@ -7,36 +7,19 @@ interface Tile {
 
 export function useSelection(tilesX: number, tilesY: number, tileWidth: number, tileHeight: number, offsetX: number = 400) {
   const [selectedTiles, setSelectedTiles] = useState<Tile[]>([]);
-  const [isSelecting, setIsSelecting] = useState(false);
-  const [selectionStart, setSelectionStart] = useState<{ x: number; y: number } | null>(null);
-  const [selectionEnd, setSelectionEnd] = useState<{ x: number; y: number } | null>(null);
   const [lastSelectedTile, setLastSelectedTile] = useState<Tile | null>(null);
   const [isMouseDown, setIsMouseDown] = useState(false);
 
-
-  const handleMouseDown = (e: any) => {
+  const handleMouseDown = () => {
     setIsMouseDown(true);
-    setIsSelecting(true);
-    const stage = e.target.getStage();
-    const clickedOnEmpty = e.target === stage;
-  
-    if (!clickedOnEmpty) return;
-  
-    if (!e.evt.ctrlKey) {
-      setSelectedTiles([]);
-    }
-  
-    const { x, y } = stage.getPointerPosition();
-    setSelectionStart({ x, y });
-    setSelectionEnd({ x, y });
-    setIsSelecting(true);
   };
-  
 
-  const handleMouseMove = (e: any) => {
-    if (!isSelecting) return;
-    const { x, y } = e.target.getStage().getPointerPosition();
-    setSelectionEnd({ x, y });
+  const handleMouseMove = () => {
+    // Não faz mais nada aqui
+  };
+
+  const handleMouseUp = () => {
+    setIsMouseDown(false);
   };
 
   const handleTileHover = (row: number, col: number) => {
@@ -48,37 +31,6 @@ export function useSelection(tilesX: number, tilesY: number, tileWidth: number, 
         return [...prev, { row, col }];
       });
     }
-  };    
-
-  const handleMouseUp = () => {
-    setIsMouseDown(false);
-    setIsSelecting(false);
-    setSelectionStart(null);
-    setSelectionEnd(null);
-    if (!selectionStart || !selectionEnd) return;
-
-    const minX = Math.min(selectionStart.x, selectionEnd.x);
-    const maxX = Math.max(selectionStart.x, selectionEnd.x);
-    const minY = Math.min(selectionStart.y, selectionEnd.y);
-    const maxY = Math.max(selectionStart.y, selectionEnd.y);
-
-    const newlySelected: Tile[] = [];
-
-    for (let row = 0; row < tilesY; row++) {
-      for (let col = 0; col < tilesX; col++) {
-        const tileX = (col - row) * (tileWidth / 2) + offsetX;
-        const tileY = (col + row) * (tileHeight / 2);
-
-        if (tileX >= minX && tileX <= maxX && tileY >= minY && tileY <= maxY) {
-          newlySelected.push({ row, col });
-        }
-      }
-    }
-
-    setSelectedTiles(newlySelected);
-    setIsSelecting(false);
-    setSelectionStart(null);
-    setSelectionEnd(null);
   };
 
   const handleTileClick = (e: any, row: number, col: number) => {
@@ -122,9 +74,6 @@ export function useSelection(tilesX: number, tilesY: number, tileWidth: number, 
 
   return {
     selectedTiles,
-    isSelecting,
-    selectionStart,
-    selectionEnd,
     handleMouseDown,
     handleMouseMove,
     handleMouseUp,
@@ -132,5 +81,4 @@ export function useSelection(tilesX: number, tilesY: number, tileWidth: number, 
     handleTileHover,
     isTileSelected,
   };
-  
 }
