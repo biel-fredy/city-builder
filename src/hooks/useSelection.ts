@@ -42,12 +42,13 @@ export function useSelection(tilesX: number, tilesY: number, tileWidth: number, 
   const handleTileHover = (row: number, col: number) => {
     if (isMouseDown) {
       setSelectedTiles((prev) => {
-        const alreadySelected = prev.some((tile) => tile.row === row && tile.col === col);
-        if (alreadySelected) return prev;
+        if (prev.some((tile) => tile.row === row && tile.col === col)) {
+          return prev;
+        }
         return [...prev, { row, col }];
       });
     }
-  };  
+  };    
 
   const handleMouseUp = () => {
     setIsMouseDown(false);

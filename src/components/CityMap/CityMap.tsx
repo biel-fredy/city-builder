@@ -18,8 +18,9 @@ export default function CityMap() {
     handleMouseMove,
     handleMouseUp,
     handleTileClick,
+    handleTileHover,
     isTileSelected,
-  } = useSelection(tilesX, tilesY, tileWidth, tileHeight, 400);
+  }  = useSelection(tilesX, tilesY, tileWidth, tileHeight, 400);
 
   const tiles = [];
 
@@ -70,7 +71,3 @@ export default function CityMap() {
     </Stage>
   );
 }
-function handleTileHover(row: number, col: number): void {
-  throw new Error("Function not implemented.");
-}
-

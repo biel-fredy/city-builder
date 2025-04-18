@@ -14,7 +14,18 @@ interface TileProps {
 }
 
 export default function Tile({ x, y, tileWidth, tileHeight, fill = "green", isSelected = false, onClick, onHover }: TileProps) {
-  const [isHovered, setIsHovered] = useState(false);
+  const [localHovered, setLocalHovered] = useState(false);
+
+  function handleMouseEnter() {
+    setLocalHovered(true);
+    onHover?.();
+  }
+
+  function handleMouseLeave() {
+    setLocalHovered(false);
+  }
+
+  const computedFill = isSelected ? "#00FF00" : localHovered ? "#66FF66" : fill;
 
   return (
     <Line
@@ -28,14 +39,11 @@ export default function Tile({ x, y, tileWidth, tileHeight, fill = "green", isSe
       ]}
       closed
       stroke="black"
-      fill={isHovered ? "#66FF66" : isSelected ? "#00FF00" : fill}
+      fill={computedFill}
       strokeWidth={1}
       onClick={onClick}
-      onMouseEnter={(e) => {
-        setIsHovered(true);
-        onHover?.();
-      }}
-      onMouseLeave={() => setIsHovered(false)}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     />
   );
 }

@@ -1,7 +1,9 @@
 city-builder/
+    .gitattributes
     .gitignore
     components.json
     eslint.config.js
+    exportacao_projeto.zip
     index.html
     package-lock.json
     package.json
@@ -13,6 +15,163 @@ city-builder/
     tsconfig.json
     tsconfig.node.json
     vite.config.ts
+    .git/
+        COMMIT_EDITMSG
+        config
+        description
+        HEAD
+        index
+        hooks/
+            applypatch-msg.sample
+            commit-msg.sample
+            fsmonitor-watchman.sample
+            post-update.sample
+            pre-applypatch.sample
+            pre-commit.sample
+            pre-merge-commit.sample
+            pre-push.sample
+            pre-rebase.sample
+            pre-receive.sample
+            prepare-commit-msg.sample
+            push-to-checkout.sample
+            sendemail-validate.sample
+            update.sample
+        info/
+            exclude
+        logs/
+            HEAD
+            refs/
+                heads/
+                    main
+                remotes/
+                    origin/
+                        main
+        objects/
+            01/
+                7997b2c85cdd59fa3891041b66cf58e3f4a7a6
+            09/
+                2408a9f09eae19150818b4f0db5d1b70744828
+            0d/
+                6741b4dc0ef24b50f614f54f0b485041571cf7
+            11/
+                f02fe2a0061d6e6e1f271b21da95423b448b32
+            14/
+                502dc1c2110baf4c2f824aae1f9658891144d0
+            18/
+                137a04962ad27a1151bde37481260ac5b9e181
+                a934c7075797336b8a2b420bedd71833d18124
+            1b/
+                dc1d66ab5752bb8929bbb4ca0daee1df5f30da
+            2b/
+                2f37437e4c96a9fbf7c7b0dea32980f95fa033
+            39/
+                60b9012567a25ec98deda058b1e056fa809cea
+            3c/
+                8f08b812d1d8199729b1eb80b43282c2a4bb0c
+            3d/
+                7150da80e43e3650342aa4758fa8b74e95d6d6
+            3e/
+                5035771a44be5c6a7857ed1b5ecf838ac0afe3
+            43/
+                72cf0706b2971e9030d2772f3220e23c8a78fd
+            44/
+                16de90bc716aa2d940e17ed300f37068f2734d
+            4b/
+                2366be554d28a06d1e8948ccd5e0bd1c027f20
+            4c/
+                6749e350e7b2d1fcdbe1ae672093f432325439
+            4e/
+                0a88232d280237c583edf69d732b65486dce17
+            55/
+                7b37c44d5cb352ff331f90e7fba0189cdfa65e
+            5d/
+                e39fdda3dd67fa43f32c52495c9922fea304ba
+            5e/
+                44edea45cdd65f3ea04562591701625966e967
+            62/
+                3922c1465dbb6149058ced08b15ec9fd0820d2
+            6f/
+                0c88e774a3444975d8a9c4035f58345d429063
+                4c05e79482cb2aef1e015cdbff3faed63a331c
+            74/
+                721d2207a68024d09034dddd0220f33a45706b
+            7f/
+                3012430e57fc5862c7bc329951d88d6ab0b841
+                71a3b489bbfee99f8ddf0f0c9ba7591ec37a10
+            88/
+                b73c60e18ebc125fe6bc827215382c8ee4e9ec
+            8e/
+                873b2d1e2671db576c793d8a2dbf3fa18c5659
+            8f/
+                8071b4b4349e0a6cb6d74d083a679d770e3e0c
+            94/
+                f480de94e1d767531580401cbf13844868e82b
+            a2/
+                df8dce675fed0712d021fa45245289ecd26c88
+            a3/
+                7a5e41777dec0767dc297c0576e15be556d3de
+            a5/
+                47bf36d8d11a4f89c59c144f24795749086dd1
+            ad/
+                eca5ae812e39863fe9ff11df4a7bfa091ad22d
+            af/
+                a1ec61a3179d6bc59f722896eaa3ea6c77d080
+            b7/
+                4c8da3e7a13dec4d1e9c82de481e81ac308fa0
+            b9/
+                d355df2a5956b526c004531b7b0ffe412461e0
+            bc/
+                68f045da00b18c73950505f3e4c07e8250c437
+                788b2c8ae9187c410f5186ec412a709ef4d37a
+            bd/
+                0c391ddd1088e9067844c48835bf4abcd61783
+                1e5d87335a4786ad3ec996bfef7c1ddfe92ab9
+            be/
+                0daece812cd605d163e03bcf5ce0dd1fc5892d
+            c5/
+                c3b4c282ade87896c234b1e0cb93641dc567dd
+            c8/
+                5fcf739ad9d6adb9f2594cf9ba99e487345ed7
+            cb/
+                a1bc6b6e119914c49bd1e712bd7ae11ad63de6
+            cf/
+                c9ec72793d36b22284af60c2bf0b12d5fb963b
+            d5/
+                e020470e5453a0959a9d071531dc601a232479
+            da/
+                9844432b833b4bb48e51949af92378b0c83eb7
+            db/
+                0becc8b033a4a78144f4a3bb852082fe91cd62
+            df/
+                9c86cad67d945d004beec9867fbf4c10ff1725
+            e1/
+                ab717331ff4cfd8cfca00c374ab9b2643c6353
+                f1195b7737b7f1b98f9b61cbcbd0662c8a4742
+            e6/
+                9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+            e7/
+                b8dfb1b2a60bd50538bec9f876511b9cac21e3
+            f1/
+                26fd9261856eb2ae358e341a636dbbe8fc7f1d
+                bb298fb76616411ac5a35609f9541d9518ab36
+                d8c73cdcf9eaacb01fec99963ad78d591305ae
+            f6/
+                d099531e8898847007ac02cf92b75493ef7343
+            fd/
+                4547b1f7d0622c4f32236e2cf8df027de0d423
+                be8c85cc9f98ac1ee564ab71dc5111cd205c8c
+            info/
+            pack/
+        refs/
+            heads/
+                main
+            remotes/
+                origin/
+                    main
+            tags/
+    exportacao_projeto/
+        estrutura.txt
+        package.json
     node_modules/
         .package-lock.json
         .bin/
@@ -72,15 +231,17 @@ city-builder/
             vite.ps1
         .vite/
             deps/
-                chunk-QH6HOCAD.js
-                chunk-QH6HOCAD.js.map
-                chunk-T37TWCKW.js
-                chunk-T37TWCKW.js.map
+                chunk-IYDKXRZQ.js
+                chunk-IYDKXRZQ.js.map
+                chunk-S3Z6QACX.js
+                chunk-S3Z6QACX.js.map
                 package.json
                 react-dom.js
                 react-dom.js.map
                 react-dom_client.js
                 react-dom_client.js.map
+                react-konva.js
+                react-konva.js.map
                 react.js
                 react.js.map
                 react_jsx-dev-runtime.js
@@ -2545,6 +2706,12 @@ city-builder/
                 static.d.ts
                 test-utils/
                     index.d.ts
+            react-reconciler/
+                constants.d.ts
+                index.d.ts
+                LICENSE
+                package.json
+                README.md
         @typescript-eslint/
             eslint-plugin/
                 index.d.ts
@@ -6559,6 +6726,16 @@ city-builder/
             windows.js
             test/
                 basic.js
+        its-fine/
+            LICENSE
+            package.json
+            README.md
+            dist/
+                index.cjs
+                index.cjs.map
+                index.d.ts
+                index.js
+                index.js.map
         jiti/
             LICENSE
             package.json
@@ -6699,6 +6876,136 @@ city-builder/
             src/
                 index.d.ts
                 index.js
+        konva/
+            konva.js
+            konva.min.js
+            LICENSE
+            package.json
+            README.md
+            lib/
+                Animation.d.ts
+                Animation.js
+                BezierFunctions.d.ts
+                BezierFunctions.js
+                Canvas.d.ts
+                Canvas.js
+                Container.d.ts
+                Container.js
+                Context.d.ts
+                Context.js
+                Core.d.ts
+                Core.js
+                DragAndDrop.d.ts
+                DragAndDrop.js
+                Factory.d.ts
+                Factory.js
+                FastLayer.d.ts
+                FastLayer.js
+                Global.d.ts
+                Global.js
+                Group.d.ts
+                Group.js
+                index-node.d.ts
+                index-node.js
+                index-types.d.ts
+                index.d.ts
+                index.js
+                Layer.d.ts
+                Layer.js
+                Node.d.ts
+                Node.js
+                PointerEvents.d.ts
+                PointerEvents.js
+                Shape.d.ts
+                Shape.js
+                Stage.d.ts
+                Stage.js
+                Tween.d.ts
+                Tween.js
+                types.d.ts
+                types.js
+                Util.d.ts
+                Util.js
+                Validators.d.ts
+                Validators.js
+                _CoreInternals.d.ts
+                _CoreInternals.js
+                _FullInternals.d.ts
+                _FullInternals.js
+                filters/
+                    Blur.d.ts
+                    Blur.js
+                    Brighten.d.ts
+                    Brighten.js
+                    Contrast.d.ts
+                    Contrast.js
+                    Emboss.d.ts
+                    Emboss.js
+                    Enhance.d.ts
+                    Enhance.js
+                    Grayscale.d.ts
+                    Grayscale.js
+                    HSL.d.ts
+                    HSL.js
+                    HSV.d.ts
+                    HSV.js
+                    Invert.d.ts
+                    Invert.js
+                    Kaleidoscope.d.ts
+                    Kaleidoscope.js
+                    Mask.d.ts
+                    Mask.js
+                    Noise.d.ts
+                    Noise.js
+                    Pixelate.d.ts
+                    Pixelate.js
+                    Posterize.d.ts
+                    Posterize.js
+                    RGB.d.ts
+                    RGB.js
+                    RGBA.d.ts
+                    RGBA.js
+                    Sepia.d.ts
+                    Sepia.js
+                    Solarize.d.ts
+                    Solarize.js
+                    Threshold.d.ts
+                    Threshold.js
+                shapes/
+                    Arc.d.ts
+                    Arc.js
+                    Arrow.d.ts
+                    Arrow.js
+                    Circle.d.ts
+                    Circle.js
+                    Ellipse.d.ts
+                    Ellipse.js
+                    Image.d.ts
+                    Image.js
+                    Label.d.ts
+                    Label.js
+                    Line.d.ts
+                    Line.js
+                    Path.d.ts
+                    Path.js
+                    Rect.d.ts
+                    Rect.js
+                    RegularPolygon.d.ts
+                    RegularPolygon.js
+                    Ring.d.ts
+                    Ring.js
+                    Sprite.d.ts
+                    Sprite.js
+                    Star.d.ts
+                    Star.js
+                    Text.d.ts
+                    Text.js
+                    TextPath.d.ts
+                    TextPath.js
+                    Transformer.d.ts
+                    Transformer.js
+                    Wedge.d.ts
+                    Wedge.js
         levn/
             LICENSE
             package.json
@@ -10620,6 +10927,75 @@ city-builder/
                 react-dom.production.js
                 react-dom.react-server.development.js
                 react-dom.react-server.production.js
+        react-konva/
+            LICENSE
+            package.json
+            react-konva.d.ts
+            ReactKonvaCore.d.ts
+            README.md
+            es/
+                makeUpdates.js
+                ReactKonva.js
+                ReactKonvaCore.d.ts
+                ReactKonvaCore.js
+                ReactKonvaHostConfig.js
+            lib/
+                makeUpdates.js
+                ReactKonva.js
+                ReactKonvaCore.d.ts
+                ReactKonvaCore.js
+                ReactKonvaHostConfig.js
+            node_modules/
+                scheduler/
+                    index.js
+                    index.native.js
+                    LICENSE
+                    package.json
+                    README.md
+                    unstable_mock.js
+                    unstable_post_task.js
+                    cjs/
+                        scheduler-unstable_mock.development.js
+                        scheduler-unstable_mock.production.js
+                        scheduler-unstable_post_task.development.js
+                        scheduler-unstable_post_task.production.js
+                        scheduler.development.js
+                        scheduler.native.development.js
+                        scheduler.native.production.js
+                        scheduler.production.js
+        react-reconciler/
+            constants.js
+            index.js
+            LICENSE
+            package.json
+            README.md
+            reflection.js
+            cjs/
+                react-reconciler-constants.development.js
+                react-reconciler-constants.production.js
+                react-reconciler-reflection.development.js
+                react-reconciler-reflection.production.js
+                react-reconciler.development.js
+                react-reconciler.production.js
+                react-reconciler.profiling.js
+            node_modules/
+                scheduler/
+                    index.js
+                    index.native.js
+                    LICENSE
+                    package.json
+                    README.md
+                    unstable_mock.js
+                    unstable_post_task.js
+                    cjs/
+                        scheduler-unstable_mock.development.js
+                        scheduler-unstable_mock.production.js
+                        scheduler-unstable_post_task.development.js
+                        scheduler-unstable_post_task.production.js
+                        scheduler.development.js
+                        scheduler.native.development.js
+                        scheduler.native.production.js
+                        scheduler.production.js
         react-refresh/
             babel.js
             LICENSE
@@ -11693,6 +12069,8 @@ city-builder/
         main.tsx
         vite-env.d.ts
         assets/
+            buildings/
+                TileGrass.tsx
             images/
         components/
             mode-toggle.tsx
@@ -11703,6 +12081,10 @@ city-builder/
             common/
             Sidebar/
                 Sidebar.tsx
+            Tiles/
+                GrassTile/
+                Tile/
+                    Tile.tsx
             Topbar/
                 Topbar.tsx
             ui/
@@ -11711,6 +12093,7 @@ city-builder/
         hooks/
             useCity.ts
             usePlayer.ts
+            useSelection.ts
         lib/
             utils.ts
         pages/
@@ -11733,3 +12116,4 @@ city-builder/
             randomEvent.ts
     _estrutura_exportada/
         estrutura.txt
+        package.json
